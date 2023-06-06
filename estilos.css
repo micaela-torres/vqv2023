@@ -1,0 +1,701 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEARD */
+.izquierda{
+   margin-left: 18rem;
+}
+.derecha{
+    margin-left: 5rem;
+}
+
+/* QUE ES EL VQV */
+
+.index-portada{
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.h4-rojo{
+    font-family: Hanson;
+    font-size: 20px;
+    color: #902327;
+    color: rgb(144, 35, 39);
+    text-align: center;
+}
+.p-negrita{
+    font-family: Hanson;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 2rem;
+}
+.listado{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.h1-naranja{
+    font-family: Hanson;
+    font-weight: bold;
+    font-size: 36px;
+    color: #CEA23D;
+    color: rgb(206, 162, 61);
+    text-align: center;
+}
+p{
+    font-family: Poppins;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    color: rgb(0, 0, 0);
+}
+
+.que-es-el-vqv{
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    font-family: Poppins-bold;
+    font-weight: bold;
+    font-size: 24px;
+    color: #CEA23D;
+    color: rgb(206, 162, 61);
+    text-align: justify;
+}
+.img-funciones{
+    left: 330px;
+    top: 436px;
+    width: 232px;
+    height: 154px;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+.img-talleres{
+    left: 41px;
+    top: 533px;
+    width: 261px;
+    height: 174px;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+.img-panel{
+    left: 309px;
+    top: 710px;
+    width: 187px;
+    height: 124px;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+.que-es-cajas{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    align-items: center;
+}
+.espacios{
+    margin-left: 1rem;
+}
+
+.espacios2 {
+    margin-right: 1rem;
+}
+.boton-objetivos{
+    background: #CEA23D;
+    background: rgba(206, 162, 61, 1);
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.boton-texto{
+    font-family: Poppins;
+    font-size: 16px;
+    color: white;
+}
+
+/* RED VQV */
+.portada-redvqv {
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: #6A93B1;
+}
+.color-celeste{
+    opacity: 20%;
+}
+
+
+.h1-celeste{
+    font-family: Hanson;
+    font-weight: bold;
+    font-size: 36px;
+    color: #6A93B1;
+    color: rgb(106, 147, 177);
+}
+.h2-celeste {
+    font-family: Hanson;
+    font-weight: bold;
+    font-size: 26px;
+    color: #6A93B1;
+    color: rgb(106, 147, 177);
+}
+.img-vqv-red{
+    left: 187px;
+    top: 1022px;
+    width: 226px;
+    height: 179px;
+}
+
+.boton-red {
+    background: #6A93B1;
+    background: rgb(106, 147, 177);
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+/* NUESTRAS EDICIONES*/
+.videos{
+    display: flex;
+    flex-direction: row;
+}
+.h1-verde{
+    font-family: Hanson;
+    font-weight: bold;
+    font-size: 36px;
+    color: #6D864D;
+    color: rgb(109, 134, 77);
+}
+
+.grid {
+    padding: 1rem;
+    margin: 3rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100 px);
+    
+    justify-content: center;
+    gap: 3em;
+}
+.img-logos{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.boton-ediciones {
+    background: #6D864D;
+    background: rgb(109, 134, 77);
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    width: 330px;
+    height: 30px;
+    text-align: center;
+}
+
+/* ESCRIBINOS*/
+ .texto-centrado{
+    font-family: Poppins-bold;
+    font-size: 16px;
+    text-align: center;
+ }
+
+ /* PORTADAS DE EDICIONES*/
+  .portada-ediciones{
+    margin-left: 1rem;
+    left: 391px;
+    top: 199px;
+    width: 100%;
+    height: 100%;
+  }
+
+  /*h en colores*/
+
+.portada-queorganiza{
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: #902327;
+  }
+.h1rojo{
+    font-family: Poppins-bold;
+    font-weight: bold;
+    font-size: 24px;
+    color: #902327;
+    color: rgb(144, 35, 39);
+
+}  
+/* BOTON FURMULARIO */
+
+.boton-formulario{
+    background: #6A93B1;
+    background: rgb(106, 147, 177);
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+/* Paquina que es el VQV*/
+
+.img3{
+    margin-left: 1rem;
+    width: 222px;
+    height: 147px;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+.img4{
+    margin-right: 1rem;
+    width: 223px;
+    height: 320px;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+.portada-queeselvqv {
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: #CEA23D;
+}
+
+.portada-texto {
+    font-family: Hanson;
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.portada-texto2 {
+    font-family: Hanson;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.color-naranja {
+    opacity: 20%;
+}
+.portada-queediciones {
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background-color: #6D864D;
+}
+
+/* PAG DE LA RED*/
+
+.logored{
+    left: 187px;
+    top: 264px;
+    width: 452px;
+    height: 358px;
+}
+
+.logo-toda-red{
+    margin-top: 2rem;
+    left: 123px;
+    top: 653px;
+    width: 90%;
+    height: 100%;
+}
+
+/* QUIEN LO ORGANIZA */
+.h1-rojo {
+    font-family: Hanson;
+    font-weight: bold;
+    font-size: 36px;
+    color: #902327;
+    color: rgba(144, 35, 39, 1);
+    text-align: center;
+}
+
+.boton-organizador {
+    background: #902327;
+    background: rgba(144, 35, 39, 1);
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+.img-castaña{
+    width: 504px;
+    height: 284px;
+}
+/* AUSPICIANTES */
+.img-aus{
+    height: auto;
+    width: 90%;
+    margin: 2rem;
+}
+
+/* PIE DE PAG CON IMG */
+.contenedor {
+    margin: 2rem 10rem 2rem 10rem;
+    height: 300px;
+    width: auto;
+    background: rgba(106, 147, 177, 1);
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.grid-contenedor {
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 140px 140px;
+    grid-template-areas:
+        "img-1 img-2 img-3 img-3"
+        "img-5 img-4 img-4 img-6";
+    gap: 7px;
+
+}
+
+.grid-contenedor .img-1 {
+    grid-area: img-1;
+    overflow: hidden;
+}
+
+.grid-contenedor .img-2 {
+    grid-area: img-2;
+    overflow: hidden;
+}
+
+.grid-contenedor .img-3 {
+    grid-area: img-3;
+    overflow: hidden;
+}
+
+.grid-contenedor .img-4 {
+    grid-area: img-4;
+    overflow: hidden;
+}
+
+.grid-contenedor .img-5 {
+    grid-area: img-5;
+    overflow: hidden;
+}
+
+.grid-contenedor .img6 {
+    grid-area: img6;
+    overflow: hidden;
+}
+
+.img-contenedor {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-contenedor2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor2 {
+    margin: 2rem 7rem 2rem 7rem;
+    height: 460px;
+    width: auto;
+    background: #6D864D;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.grid-contenedor2 {
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 140px 140px 140px;
+    grid-template-areas:
+        "comi-1 comi-1 comi-2 comi-2 comi-7"
+        "comi-1 comi-1 comi-3 comi-4 comi-7"
+        "comi-6 comi-5 comi-5 comi-5 comi-8";
+    gap: 7px;
+
+}
+
+.grid-contenedor2 .comi-1 {
+    grid-area: comi-1;
+    overflow: hidden;
+}
+
+.grid-contenedor2 .comi-2 {
+    grid-area: comi-2;
+    overflow: hidden;
+}
+
+.grid-contenedor2 .comi-3 {
+    grid-area: comi-3;
+    overflow: hidden;
+}
+
+.grid-contenedor2 .comi-4 {
+    grid-area: comi-4;
+    overflow: hidden;
+}
+
+.grid-contenedor2 .comi-5 {
+    grid-area: comi-5;
+    overflow: hidden;
+}
+
+.grid-contenedor2 .comi-6 {
+    grid-area: comi-6;
+    overflow: hidden;
+}
+
+.grid-contenedor2 .comi-7 {
+    grid-area: comi-7;
+    overflow: hidden;
+}
+.grid-contenedor2 .comi-8 {
+    grid-area: comi-8;
+    overflow: hidden;
+}
+
+/* IMPORTACION DE TIPOGRAFIAS*/
+
+@font-face {
+    font-family: Poppins;
+    src: url('./Fuentes/Poppins-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: Poppins-bold;
+    src: url('./Fuentes/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Hanson;
+    src: url('./Fuentes/Hanson-Bold.otf') format('opentype');
+}
+
+/* RESPOSIVE */
+
+@media (max-width: 1080px){
+.izquierda{
+    margin-left: 2rem;
+}
+
+}
+
+@media (max-width: 900px){
+    .que-es-el-vqv {
+            margin-left: 5rem;
+            margin-right: 5rem;
+    }
+    .contenedor {
+            margin: 2rem 5rem 2rem 5rem;
+    }
+    .contenedor2 {
+        margin: 2rem 4rem 2rem 4rem;
+    }
+    .h4-rojo {
+        font-size: 18px;
+    }
+    .p-negrita {
+        font-size: 18px;
+    }
+    .h1-celeste {
+        font-size: 32px;
+    }
+    .h2-celeste {
+        font-size: 22px;
+    }
+    .h1rojo {
+        font-size: 20px;
+    }
+
+}
+@media (max-width:650px){
+    .h1-naranja {
+        font-size: 30px;
+    }
+    .h1-celeste {
+        font-size: 30px;
+    }
+    .h1-verde {
+        font-size: 30px;
+    }
+    .h1-rojo {
+        font-size: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .grid{
+        grid-template-columns: 50% 50%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 100 px);
+    }
+    .contenedor2 {
+            margin: 2rem 1rem 2rem 1rem;
+    }
+    .h4-rojo {
+        font-size: 16px;
+    }
+    .p-negrita {
+        font-size: 16px;
+    }
+    .videos {
+        flex-direction: column;
+    }
+    .h1-celeste {
+        font-size: 30px;
+    }
+    .h2-celeste {
+        font-size: 20px;
+    }
+    .h1rojo {
+        font-size: 18px;
+    }
+    .portada-texto2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:500px) {
+    .h1-naranja {
+        font-size: 26px;
+    }
+
+    .h1-celeste {
+        font-size: 26px;
+    }
+
+    .h1-verde {
+        font-size: 26px;
+    }
+
+    .h1-rojo {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+    .que-es-el-vqv {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .contenedor {
+        margin: 2rem 1rem 2rem 1rem;
+    }
+    .grid {
+        grid-template-columns: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 100 px);
+    }
+    .img-castaña {
+        width: 252px;
+        height: 142px;
+    }
+    .img-funciones {
+        width: 116px;
+        height: 77px;
+        border-radius: 10px;
+        box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+    }
+    .img-talleres {
+        width: 130px;
+        height: 87px;
+        border-radius: 10px;
+        box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .img-panel {
+        width: 94px;
+        height: 62px;
+        border-radius: 10px;
+        box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+    }
+    .img3 {
+        width: 111px;
+        height: 74px;
+        border-radius: 10px;
+        box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .img4 {
+        width: 111px;
+        height: 160px;
+        border-radius: 10px;
+        box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+    }
+    .texto-centrado {
+        font-size: 12px;
+    }
+    .logored {
+        width: 226px;
+        height: 179px;
+    }
+    .h4-rojo {
+        font-size: 14px;
+    }
+    .p-negrita {
+        font-size: 14px;
+    }
+    .h1-celeste {
+        font-size: 26px;
+    }
+    
+    .h2-celeste {
+        font-size: 18px;
+    }
+    
+    .h1rojo {
+        font-size: 14px;
+    }
+    .portada-texto2 {
+        font-size: 22px;
+    }
+}
