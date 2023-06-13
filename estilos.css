@@ -48,7 +48,7 @@
 p{
     font-family: Poppins;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     color: #000000;
     color: rgb(0, 0, 0);
 }
@@ -76,7 +76,7 @@ h3{
     width: 232px;
     height: 154px;
     border-radius: 30px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+
 }
 
 .img-talleres{
@@ -85,7 +85,6 @@ h3{
     width: 261px;
     height: 174px;
     border-radius: 30px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
 }
 .img-panel{
     left: 309px;
@@ -93,7 +92,7 @@ h3{
     width: 187px;
     height: 124px;
     border-radius: 30px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+
 }
 .que-es-cajas{
     display: flex;
@@ -112,7 +111,6 @@ h3{
     background: #CEA23D;
     background: rgba(206, 162, 61, 1);
     border-radius: 30px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
     width: 200px;
     height: 30px;
     text-align: center;
@@ -144,6 +142,7 @@ h3{
     font-size: 36px;
     color: #6A93B1;
     color: rgb(106, 147, 177);
+    text-align: center;
 }
 .h2-celeste {
     font-family: Hanson;
@@ -163,7 +162,6 @@ h3{
     background: #6A93B1;
     background: rgb(106, 147, 177);
     border-radius: 30px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
     width: 200px;
     height: 30px;
     text-align: center;
@@ -173,11 +171,12 @@ h3{
 .videos{
     display: flex;
     flex-direction: row;
+    height: 300px;
 }
 .videos-2{
-    margin: 2rem;
-    width: 40%;
-    height: 100%;
+    margin: 1rem;
+    width: 100%;
+    height: 90%;
 }
 .h1-verde{
     font-family: Hanson;
@@ -209,7 +208,6 @@ h3{
     background: #6D864D;
     background: rgb(109, 134, 77);
     border-radius: 30px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
     width: 330px;
     height: 30px;
     text-align: center;
@@ -255,7 +253,6 @@ h3{
     background: #6A93B1;
     background: rgb(106, 147, 177);
     border-radius: 30px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
     width: 200px;
     height: 30px;
     text-align: center;
@@ -268,14 +265,14 @@ h3{
     width: 222px;
     height: 147px;
     border-radius: 30px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+
 }
 .img4{
     margin-right: 1rem;
     width: 223px;
     height: 320px;
     border-radius: 30px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+
 }
 .portada-queeselvqv {
     height: 200px;
@@ -350,7 +347,6 @@ h3{
     background: #902327;
     background: rgba(144, 35, 39, 1);
     border-radius: 30px;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
     width: 200px;
     height: 30px;
     text-align: center;
@@ -648,33 +644,28 @@ h3{
         width: 116px;
         height: 77px;
         border-radius: 10px;
-        box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
     }
     .img-talleres {
         width: 130px;
         height: 87px;
         border-radius: 10px;
-        box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
     }
     
     .img-panel {
         width: 94px;
         height: 62px;
         border-radius: 10px;
-        box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
     }
     .img3 {
         width: 111px;
         height: 74px;
         border-radius: 10px;
-        box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
     }
     
     .img4 {
         width: 111px;
         height: 160px;
         border-radius: 10px;
-        box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
     }
     .texto-centrado {
         font-size: 12px;
